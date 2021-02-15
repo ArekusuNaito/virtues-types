@@ -1,12 +1,13 @@
 {
   "name": "@ArekusuNaito/virtues-types",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fuse": "ts-node fuse.ts",
-    "compile": "tsc"
+    "compile": "tsc",
+    "publish": "tsc & npm publish"
   },
   "repository": {
     "type": "git",
